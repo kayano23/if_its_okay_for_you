@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">may gawa ka?</h1>
+      </div>
+      <div class="gif_container">
+        <img
+          src="https://media2.giphy.com/media/Ri98Ht4Q9hczOeHC1E/giphy.webp?cid=ecf05e47rdcpuzr0yopsguf797l6d552zylutck4wqtiewk9&ep=v1_gifs_search&rid=giphy.webp&ct=s"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <div class="buttons">
+        <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+        <button class="btn" id="noButton" onclick="nextPage1()">No</button>
+        <script>
+          function nextPage1() {
+            window.location.href = "yes.html";
+          }
+
+         function nextPage() {
+          window.location.href = "no.html";
+         }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
